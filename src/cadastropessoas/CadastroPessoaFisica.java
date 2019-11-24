@@ -97,6 +97,8 @@ public class CadastroPessoaFisica extends javax.swing.JFrame {
 
         trocarJanela.setFont(new java.awt.Font("Verdana", 0, 10)); // NOI18N
         trocarJanela.setText("PJ?");
+        trocarJanela.setFocusPainted(false);
+        trocarJanela.setFocusable(false);
         trocarJanela.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 trocarJanelaActionPerformed(evt);

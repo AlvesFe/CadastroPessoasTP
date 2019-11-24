@@ -96,6 +96,8 @@ public class CadastroPessoaJuridica extends javax.swing.JFrame {
 
         trocarJanela.setFont(new java.awt.Font("Verdana", 0, 10)); // NOI18N
         trocarJanela.setText("PF?");
+        trocarJanela.setFocusPainted(false);
+        trocarJanela.setFocusable(false);
         trocarJanela.setMaximumSize(new java.awt.Dimension(48, 30));
         trocarJanela.setMinimumSize(new java.awt.Dimension(48, 30));
         trocarJanela.setPreferredSize(new java.awt.Dimension(48, 30));
