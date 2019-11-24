@@ -16,6 +16,7 @@ public class CadastroPessoaJuridica extends javax.swing.JFrame {
      */
     public CadastroPessoaJuridica() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
     PessoaJuridica objPessoaJuridica = new PessoaJuridica();
 
