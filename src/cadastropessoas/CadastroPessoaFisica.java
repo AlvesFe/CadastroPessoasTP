@@ -45,6 +45,7 @@ public class CadastroPessoaFisica extends javax.swing.JFrame {
         trocarJanela = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Cadastro de Pessoa Física");
         setMaximumSize(new java.awt.Dimension(502, 542));
         setMinimumSize(new java.awt.Dimension(502, 542));
         setResizable(false);
