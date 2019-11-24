@@ -10,7 +10,7 @@ package cadastropessoas;
  * @author Felipe
  */
 public class Pessoa {
-    
+    //Criaçao dos atributos a serem usados nas classes filhas de PF e PJ
     public String identificacao;
     public String email;
     public String nroDoc;

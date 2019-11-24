@@ -16,6 +16,8 @@ public class CadastroPessoas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        CadastroPessoaFisica inicio = new CadastroPessoaFisica();
+        inicio.setVisible(true);
     }
     
 }

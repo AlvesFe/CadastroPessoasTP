@@ -9,17 +9,17 @@ package cadastropessoas;
  *
  * @author Felipe
  */
-public class PessoaFisica extends Pessoa {
+public class PessoaJuridica extends Pessoa {
 
     //Criação do método que recebe os dados para os atributos da classe mãe
-    public void ObterDados(String nome, String email, String cpf) {
-        this.identificacao = nome;
+    public void ObterDados(String razaoSocial, String email, String cnpj) {
+        this.identificacao = razaoSocial;
         this.email = email;
-        this.nroDoc = cpf;
+        this.nroDoc = cnpj;
     }
     
     //Criação da classe que exibe o atributo identificação quando chamado
-    public String ExibirNome() {
+    public String ExibirRazaoSocial() {
         return this.identificacao;
     }
 
@@ -29,7 +29,7 @@ public class PessoaFisica extends Pessoa {
     }
 
     //Criação da classe que exibe o atributo de numero de documento quando chamado
-    public String ExibirCpf() {
+    public String ExibirCnpj() {
         return this.nroDoc;
     }
 }
